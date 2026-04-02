@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪐 OneChat | Next-Gen Local AI Reasoning Ecosystem
 
-## Getting Started
+A production-grade, private-first AI interface engineered to leverage the full power of local Large Language Models (LLMs). OneChat combines an elite, fluid UI inspired by world-class AI platforms with a secure, local-only architecture.
 
-First, run the development server:
+###  
+
+## 🚀 Key Features
+
+  * **Reasoning Engine Native**: Specifically optimized for "Thinking" models (GPT-OSS 20B / Qwen 2.5 14B). Features dynamic `<think>` tag parsing with collapsible UI components.
+  * **Jarvis Voice Protocol**: Native **Web Speech API** integration for real-time voice-to-text dictation with animated visual feedback.
+  * **Agent Multiverse**: Hot-swappable AI personas (**Core**, **Nexus Dev**, **Muse**) with specialized system prompts for distinct engineering and creative workflows.
+  * **Massive Context Support**: High-performance context management up to **256k tokens**, allowing for deep discussion of entire codebases.
+  * **Multimodal Artifacts**: Premium drag-and-drop support for visual context (Images) and system documentation (.ts, .env, .py, .json, .tsx).
+  * **Enterprise Document Suite**: Instant **PDF E-Report** generation and Markdown exporting for professional documentation.
+  * **Premium UX**: Titanium design system featuring skeleton loading, glassmorphic overlays, and **60FPS Framer Motion** animations.
+
+## 🛠️ Tech Stack
+
+**Frontend & Logic:**
+
+  * **Next.js 15 (App Router)**: High-performance React framework.
+  * **Tailwind CSS**: Premium, fluid utility-first design.
+  * **Framer Motion**: Complex micro-interactions and layout transitions.
+  * **Lucide React**: Enterprise-grade iconography.
+  * **Prism.js**: Real-time syntax highlighting for code artifacts.
+
+**Backend & Inference:**
+
+  * **Ollama**: Local inference engine for private model hosting.
+  * **Next.js API Routes**: Secure internal bridge to local inference servers.
+  * **Web Speech API**: Browser-native transcription services.
+
+## ⚙️ Local Setup
+
+### System Prerequisites
+
+Ensure **Ollama** is installed and the service is active:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ollama serve
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Application Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Navigate & Install**:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    ```bash
+    git clone https://github.com/chiranjeeb-lahiri/OneChat.git
+    cd OneChat
+    npm install
+    ```
 
-## Learn More
+2.  **Launch Ecosystem**:
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    ```bash
+    npm run dev
+    ```
