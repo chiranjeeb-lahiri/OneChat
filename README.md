@@ -1,6 +1,6 @@
 # OneChat | Next-Gen Local AI Reasoning Ecosystem
 
-A production-grade, private-first AI interface engineered to leverage the full power of local Large Language Models (LLMs). OneChat combines an elite, fluid UI inspired by world-class AI platforms with a secure, local-only architecture.
+A production-grade, private-first AI interface engineered to leverage the full power of local Large Language Models (LLMs). OneChat inspired by world-class AI platforms with a secure, local-only architecture.
 
 ###  
 
